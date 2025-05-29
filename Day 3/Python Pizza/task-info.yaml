@@ -15,15 +15,8 @@ files:
   - name: solution.py
     visible: true
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: "'Welcome to Python Pizza Deliveries!\\nYour final bill is: $25.\\n' !=\
-    \ 'Welcome to Python Pizza Deliveries!\\nYour final bill is: 25\\n'"
-  time: "Thu, 29 May 2025 17:29:41 UTC"
-  expected: |
-    Welcome to Python Pizza Deliveries!
-    Your final bill is: $25.
-  actual: |
-    Welcome to Python Pizza Deliveries!
-    Your final bill is: 25
+  message: Congratulations!
+  time: "Thu, 29 May 2025 17:45:12 UTC"
 record: -1
