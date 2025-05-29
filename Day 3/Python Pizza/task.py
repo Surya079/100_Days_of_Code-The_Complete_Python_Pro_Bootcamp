@@ -9,26 +9,26 @@ L = 25
 if size == "S":
     if pepperoni == "Y":
         if extra_cheese == "Y":
-            print("Your final bill is:", S + 2 + 1)
+            print(f"Your final bill is: ${S + 2 + 1}")
         else:
-            print("Your final bill is:", S + 2)
+            print(f"Your final bill is: ${S + 2}")
     else:
-        print("Your final bill is:", S )
+        print(f"Your final bill is: ${S}" )
 
 elif size == "M":
     if pepperoni == "Y":
         if extra_cheese == "Y":
-            print("Your final bill is:", M + 3 + 1)
+            print(f"Your final bill is: ${M + 3 + 1}")
         else:
-            print("Your final bill is:", M + 3)
+            print(f"Your final bill is: ${M + 3}")
     else:
-        print("Your final bill is:", M)
+        print(f"Your final bill is: ${M}")
 
 elif size == "L":
     if pepperoni == "Y":
         if extra_cheese == "Y":
-            print("Your final bill is:", L + 3 + 1)
+            print(f"Your final bill is: ${L + 3 + 1}")
         else:
-            print("Your final bill is:", L + 3)
+            print(f"Your final bill is: ${L + 3}")
     else:
-        print("Your final bill is:", L)
+        print(f"Your final bill is: ${L}")
